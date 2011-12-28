@@ -19,6 +19,11 @@ no_index:
   directory:
     - inc
     - t
+requires:
+  Digest::MD5: 0
+  Mime::Base64: 0
+  SWISH::Filters: 0
+  Search::OpenSearch::Engine::Lucy: 0.06
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02
